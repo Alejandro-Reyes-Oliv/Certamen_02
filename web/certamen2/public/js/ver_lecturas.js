@@ -57,6 +57,7 @@ const cargarTabla = (lecturas)=>{
         botonEliminar.addEventListener("click", iniciarEliminacion);
         tdAcciones.appendChild(botonEliminar);
 
+
         tr.appendChild(tddecha);
         tr.appendChild(tdhora);
         tr.appendChild(tdmedidor);
